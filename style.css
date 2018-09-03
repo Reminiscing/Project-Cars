@@ -6,9 +6,9 @@
 body {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
-   background-image: url(img/gabriel-gurrola-125352.jpg);
+   background-image: url(https://res.cloudinary.com/lightcodes-llc/image/upload/v1535948005/3Wrd12U.jpg);
     background-size:cover;
-    background-position: 66.47%;
+/*     background-position: 66.47%; */
     height: 100vh;
    
 }
@@ -105,6 +105,12 @@ outline: none;
 border: 1px solid #0d80c7;
 }
 
+.register-btn:hover {
+  background-color: #0570b2;
+  border: 1px solid #0570b2;
+  cursor: pointer;
+}
+
 .register-btn a {
 text-decoration: none;
 text-transform: uppercase;
@@ -148,7 +154,7 @@ color: #fff;
 }
 
 #pword {
-    margin-top: 3%
+ margin-top: 3%
 }
 .login-btn {
 margin-top: 8%;
@@ -158,6 +164,10 @@ background-color: #fff;
 border-radius: 100px;
 width: 260px;
 border: 1px solid white;
+}
+
+.login-btn:hover {
+  cursor: pointer;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
